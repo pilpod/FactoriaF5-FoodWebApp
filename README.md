@@ -38,3 +38,7 @@ No está permitida la venta de este producto. Se puede modificar al gusto y seg�
 ## Expresiones de Gratitud 🎁
 
 * Gracias a Factoria F5 (http://www.factoriaf5.org/)
+
+## Other information
+
+GitPages - https://pilpod.github.io/FactoriaF5-FoodWebApp/

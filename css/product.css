@@ -15,16 +15,47 @@
 }
 
 .box-product {
+    display: inline-flex;
+    align-items: center;
     min-width: 350px;
     max-width: 450px;
-    height: 200px;
-    /* background-color: brown; */
+    height: 150px;
     margin-bottom: 15px;
+    border: solid 1px  rgb(167, 168, 169);;
+    border-radius: 15px;
 }
 
 .box-product img {
-    width: 30vw;
+    width: 35%;
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
+    margin-right: 10px;
+}
+
+.info-product {
+    width:60%;
+    line-height: 25px;
+    text-align: center;
+}
+
+.euro {
+    margin-right: 5px;
+    color: #FF6900;
+}
+
+#price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF6900;
+}
+
+#dish_name {
+    font-size: 115%;
+    font-weight: bold;
+}
+
+#ingredients {
+    color: rgb(167, 168, 169);
+    font-size: 100%;
 }

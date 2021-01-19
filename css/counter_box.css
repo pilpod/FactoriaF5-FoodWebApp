@@ -1,0 +1,23 @@
+#counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#minus {
+    width: 25px;
+    height: 25spx;
+    color: rgba(167, 168, 169, 1);;
+    border: solid 1px rgb(167, 168, 169);
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+#count {
+    width: 25px;
+    height: 25spx;
+    border: solid 1px rgba(167, 168, 169, 0.2);
+    background-color: rgba(167, 168, 169, 0.2);
+    text-align: center;
+}

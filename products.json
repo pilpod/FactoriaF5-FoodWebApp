@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "breakfast": [
+                {
+                    "id": 1,
+                    "img": "img/breakfast-1.jpg",
+                    "name": "Desayuno de la Casa",
+                    "price": 15,
+                    "ingredients": "Huevos, pancakes y tocino"
+                },
+                {
+                    "id": 2,
+                    "img": "img/breakfast-1.jpg",
+                    "name": "Desayuno 2",
+                    "price": 15,
+                    "ingredients": "Huevos, pancakes y tocino"
+                }
+            ]
+        },
+        {
+            "fast_food": [
+                {
+                    "id": 3,
+                    "img": "img/dish.jpg",
+                    "name": "Fast Food",
+                    "price": 15,
+                    "ingredients": "Huevos, pancakes y tocino"
+                },
+                {
+                    "id": 4,
+                    "img": "img/dish.jpg",
+                    "name": "Fast Food",
+                    "price": 15,
+                    "ingredients": "Huevos, pancakes y tocino"
+                }
+            ]
+        }
+    ]
+}

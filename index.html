@@ -24,17 +24,20 @@
         </section>
     </header>
 
-    <main class="container">
-        <nav id="categoriesSlider" class="categories">
-            <div class="card-cat coffee"></div>
-            <div class="card-cat hamburguer"></div>
-            <div class="card-cat dinner"></div>
-            <div class="card-cat dessert"></div>
-            <div class="card-cat fruits"></div>
-        </nav>
+    
+    <nav id="categoriesSlider" class="categories">
+        <div class="card-cat coffee"></div>
+        <div class="card-cat hamburguer"></div>
+        <div class="card-cat dinner"></div>
+        <div class="card-cat dessert"></div>
+        <div class="card-cat fruits"></div>
+        <div class="card-cat fruits"></div>
+        <div class="card-cat fruits"></div>
+    </nav>
 
+    <main class="container">
         <section id="products">
-            <div class="products-column">
+            <div id="first_column" class="products-column">
                 <div class="box-product">
                     <img src="img/dish.jpg" alt="">
                     <div class="info-product">
@@ -43,8 +46,8 @@
                         <h6 id="ingredients">With cheese sauce</h6>
                         <div id="counter">
                             <div id="minus"><i class="fas fa-minus"></i></div>
-                            <div id="count">01</div>
-                            <div id="minus"><i class="fas fa-plus"></i></div>
+                            <div id="count">0</div>
+                            <div id="plus"><i class="fas fa-plus"></i></div>
                         </div>
                     </div>
                 </div>
@@ -55,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div class="products-column">
+            <div id="second_column" class="products-column">
                 <div class="box-product">
                     <img src="img/dish.jpg" alt="">
                     <div class="info-product">
@@ -63,7 +66,7 @@
                     </div>
                 </div>
             </div>
-            <div class="products-column">
+            <div id="third_column" class="products-column">
                 <div class="box-product">
                     <img src="img/dish.jpg" alt="">
                     <div class="info-product">
@@ -73,9 +76,16 @@
             </div>
         </section>
 
-
     </main>
     
+    <section class="footer">
+        <div class="btn-cart"></div>
+        <div class="home"><i class="fas fa-home fa-2x"></i></div>
+        <div class="messages"><i class="fas fa-comments fa-2x"></i></div>
+        <div class="heart"><i class="fas fa-heart fa-2x"></i></div>
+        <div class="profile"><i class="fas fa-user fa-2x"></i></div>
+    </section>
+
     <script src="js/app.js" type="module"></script>
 </body>
 </html>

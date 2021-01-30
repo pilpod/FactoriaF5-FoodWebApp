@@ -1,9 +1,11 @@
+
+
 .categories {
     display: flex;
     flex-wrap: nowrap;
     margin: 20px 0;
-    width: 300%;
     overflow-x: auto;
+    white-space: nowrap;
     scrollbar-width: none;
 }
 
@@ -19,20 +21,21 @@
 }
 
 .card-cat {
-    width: 100px;
     height: 130px;
+    border: gray solid 1px;
     border-radius: 15px;
     text-align: center;
-    margin-right: 15px;
-    /* box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3); */
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     filter: drop-shadow(0px 5px 7px rgba(0, 0, 0, 0.2));
+    padding: 0 15px;
 }
 
     .card-cat.coffee::before {
+        width: var(--categories-width);
         font-family: var(--awesome-font-family);
         font-weight: 900;
         font-size: 50px;
@@ -45,6 +48,7 @@
     }
 
     .card-cat.hamburguer::before {
+        width: var(--categories-width);
         font-family: var(--awesome-font-family);
         font-weight: 900;
         font-size: 50px;
@@ -57,6 +61,7 @@
     }
 
     .card-cat.dinner::before {
+        width: var(--categories-width);
         font-family: var(--awesome-font-family);
         font-weight: 900;
         font-size: 50px;
@@ -69,6 +74,7 @@
     }
 
     .card-cat.dessert::before {
+        width: var(--categories-width);
         font-family: var(--awesome-font-family);
         font-weight: 900;
         font-size: 50px;
@@ -81,6 +87,7 @@
     }
 
     .card-cat.fruits::before {
+        width: var(--categories-width);
         font-family: var(--awesome-font-family);
         font-weight: 900;
         font-size: 50px;
